@@ -9,7 +9,7 @@ const router: RouteObject[] = [
     element: <Main />,
   },
   {
-    path: '/more',
+    path: '/more/:id',
     element: <InfoPage />,
   },
   {
