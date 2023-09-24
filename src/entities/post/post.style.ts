@@ -9,11 +9,9 @@ type PropsType = {
 export const PostWrapper = styled.div`
   background-color: transparent;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
-  justify-content: center;
-  align-content: center;
   gap: 25px;
+  padding-lef: 100px;
 `
 
 export const Img = styled.img`
@@ -29,3 +27,4 @@ export const Card = styled.div<PropsType>`
     margin-top: 15px;
   }
 `
+

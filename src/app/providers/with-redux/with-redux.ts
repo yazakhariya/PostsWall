@@ -6,7 +6,7 @@ export const jsonPlaceholderApi = createApi({
   baseQuery: fetchBaseQuery({ baseUrl: 'https://jsonplaceholder.typicode.com/' }),
   endpoints: (builder) => ({
     getPosts: builder.query<QueryFn, void>({
-      query: () => '/posts',
+      query: () => '/posts?',
     }),
   }),
 })
